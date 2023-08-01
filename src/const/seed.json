@@ -1,0 +1,1702 @@
+[
+  {
+    "ride": [
+      {
+        "id": "c153a222-8b23-4e68-b726-ce90472913fa",
+        "pickup_location": "Central Park",
+        "dropoff_location": "Grand Central Terminal",
+        "ride_option": "Sedan",
+        "created_at": "2023-08-01T06:34:57.995Z",
+        "updated_at": "2023-08-01T00:04:34.795Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "47b64b10-2b90-45bf-aaff-10c25b549629",
+        "pickup_location": "Times Square",
+        "dropoff_location": "Rockefeller Center",
+        "ride_option": "SUV",
+        "created_at": "2023-08-01T07:47:19.609Z",
+        "updated_at": "2023-08-01T02:57:36.908Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "d712570d-5976-4531-b338-df1cb53f25f5",
+        "pickup_location": "Brooklyn Bridge",
+        "dropoff_location": "One World Trade Center",
+        "ride_option": "Luxury",
+        "created_at": "2023-07-31T21:19:58.955Z",
+        "updated_at": "2023-08-01T08:27:35.369Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "1dbcec1d-fe5d-4513-a347-d256babb2323",
+        "pickup_location": "Empire State Building",
+        "dropoff_location": "The High Line",
+        "ride_option": "Van",
+        "created_at": "2023-08-01T10:10:50.464Z",
+        "updated_at": "2023-08-01T13:01:58.373Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "887dfb03-f09c-4373-a2a8-877d8b347917",
+        "pickup_location": "Statue of Liberty",
+        "dropoff_location": "The Metropolitan Museum of Art",
+        "ride_option": "Motorcycle",
+        "created_at": "2023-08-01T13:27:21.241Z",
+        "updated_at": "2023-08-01T15:31:56.210Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      }
+    ],
+    "rating": [
+      {
+        "id": "367b6dde-9383-4b2a-a045-08173d60a83e",
+        "rating": 58709,
+        "created_at": "2023-08-01T10:43:58.171Z",
+        "updated_at": "2023-08-01T03:39:52.148Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "18d9855f-fca7-4f7e-9274-d97fa513b55b",
+        "rating": 4772,
+        "created_at": "2023-08-01T00:52:46.747Z",
+        "updated_at": "2023-07-31T21:35:04.230Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "f633af8c-6b2e-41bb-a6c0-3a41551930c9",
+        "rating": 43130,
+        "created_at": "2023-08-01T09:45:11.483Z",
+        "updated_at": "2023-08-01T15:03:31.723Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "9203013a-15fa-4508-be65-5f5ccc733e4e",
+        "rating": 16352,
+        "created_at": "2023-07-31T22:49:42.678Z",
+        "updated_at": "2023-08-01T16:08:56.635Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "4013736d-43fe-411d-bf04-bcc50d17fabb",
+        "rating": 55201,
+        "created_at": "2023-08-01T08:55:25.062Z",
+        "updated_at": "2023-08-01T12:16:30.219Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      }
+    ],
+    "loyalty_program": [
+      {
+        "id": "d2659744-0abd-41bd-9bf4-7db3296e966d",
+        "program_name": "Gold Rewards",
+        "created_at": "2023-08-01T13:17:23.606Z",
+        "updated_at": "2023-08-01T02:14:23.695Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "84408646-4c56-4d37-8c49-fbeff92781e2",
+        "program_name": "Platinum Club",
+        "created_at": "2023-08-01T01:04:02.473Z",
+        "updated_at": "2023-07-31T19:11:57.669Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "5d4af560-5237-4e41-bb24-dcebdef39a40",
+        "program_name": "Diamond Elite",
+        "created_at": "2023-07-31T22:05:18.068Z",
+        "updated_at": "2023-08-01T10:33:02.645Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "fdea3f5d-6957-4801-815b-793e1566e548",
+        "program_name": "Silver Advantage",
+        "created_at": "2023-08-01T14:31:21.683Z",
+        "updated_at": "2023-07-31T17:24:13.580Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "b618fcec-a1c5-4581-ac53-d1263df7d06b",
+        "program_name": "Bronze Membership",
+        "created_at": "2023-07-31T17:30:18.596Z",
+        "updated_at": "2023-08-01T12:02:56.447Z",
+        "business_owner_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "f1935b73-5898-49b8-a24a-72cf79939003",
+        "booking_time": "2023-08-01T06:41:41.761Z",
+        "created_at": "2023-08-01T00:40:14.083Z",
+        "updated_at": "2023-08-01T02:36:37.194Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "f3068087-e329-4d0d-ace7-e08daac36d25",
+        "booking_time": "2023-07-31T18:43:01.786Z",
+        "created_at": "2023-08-01T10:23:51.215Z",
+        "updated_at": "2023-07-31T18:40:07.138Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "eb1ebb20-1c5e-4706-9677-42d3482d2500",
+        "booking_time": "2023-08-01T01:55:48.020Z",
+        "created_at": "2023-08-01T11:57:19.286Z",
+        "updated_at": "2023-08-01T15:12:53.152Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "1fc2308e-1116-451c-879a-ff0003181d8e",
+        "booking_time": "2023-08-01T16:33:12.055Z",
+        "created_at": "2023-08-01T10:01:26.553Z",
+        "updated_at": "2023-07-31T23:10:51.771Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "2b912789-e4d3-464b-b339-8272525a7a68",
+        "booking_time": "2023-08-01T07:24:41.651Z",
+        "created_at": "2023-08-01T06:26:16.899Z",
+        "updated_at": "2023-08-01T14:47:40.922Z",
+        "business_owner_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "ride": [
+      {
+        "id": "1a583f87-0c72-45b7-98be-b1319c4ef626",
+        "pickup_location": "Central Park",
+        "dropoff_location": "Grand Central Terminal",
+        "ride_option": "Sedan",
+        "created_at": "2023-07-31T18:08:22.060Z",
+        "updated_at": "2023-07-31T17:02:08.828Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "ff4cc04c-d1dd-4773-bb68-fd912bc6ad43",
+        "pickup_location": "Times Square",
+        "dropoff_location": "Rockefeller Center",
+        "ride_option": "SUV",
+        "created_at": "2023-07-31T22:01:50.469Z",
+        "updated_at": "2023-07-31T21:03:26.381Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "ad78eb20-0798-4291-9e45-73b267040829",
+        "pickup_location": "Brooklyn Bridge",
+        "dropoff_location": "One World Trade Center",
+        "ride_option": "Luxury",
+        "created_at": "2023-08-01T12:17:23.777Z",
+        "updated_at": "2023-08-01T04:51:58.044Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "f9cacdc7-8af1-42f2-8dca-43cd1c7b16bb",
+        "pickup_location": "Empire State Building",
+        "dropoff_location": "The High Line",
+        "ride_option": "Van",
+        "created_at": "2023-08-01T07:50:43.615Z",
+        "updated_at": "2023-08-01T01:18:05.133Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "0293b45c-4fcd-4546-a84b-42cde32895e7",
+        "pickup_location": "Statue of Liberty",
+        "dropoff_location": "The Metropolitan Museum of Art",
+        "ride_option": "Motorcycle",
+        "created_at": "2023-08-01T01:03:30.754Z",
+        "updated_at": "2023-07-31T23:57:49.257Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      }
+    ],
+    "rating": [
+      {
+        "id": "e3048440-b42d-43e9-af79-c09714e5eb60",
+        "rating": 17605,
+        "created_at": "2023-08-01T02:32:47.926Z",
+        "updated_at": "2023-08-01T03:16:14.363Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "cf506d1c-66a6-4758-b802-a7df9c472ca8",
+        "rating": 45,
+        "created_at": "2023-08-01T03:23:20.081Z",
+        "updated_at": "2023-08-01T10:28:56.215Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "4709f476-0bcd-4b7a-a040-18abb76ad379",
+        "rating": 52761,
+        "created_at": "2023-08-01T11:27:25.568Z",
+        "updated_at": "2023-08-01T03:23:03.964Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "b0ac0deb-0d74-4bf4-a233-d86c58452cf5",
+        "rating": 83405,
+        "created_at": "2023-07-31T22:11:58.207Z",
+        "updated_at": "2023-08-01T00:22:54.041Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "2a0964fc-c51e-4c7d-bc06-3b93e1f15c26",
+        "rating": 90607,
+        "created_at": "2023-07-31T20:05:08.005Z",
+        "updated_at": "2023-07-31T20:33:03.298Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      }
+    ],
+    "loyalty_program": [
+      {
+        "id": "6cb8802d-9f43-4ccd-9fd0-7d8e167c836f",
+        "program_name": "Gold Rewards",
+        "created_at": "2023-07-31T18:28:55.935Z",
+        "updated_at": "2023-07-31T21:16:56.396Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "74128db9-f2f6-46aa-b7ad-25d35671d33a",
+        "program_name": "Platinum Club",
+        "created_at": "2023-08-01T01:52:50.174Z",
+        "updated_at": "2023-07-31T16:49:27.891Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "d7c98168-ea7a-4b82-80c4-b420fc4f7833",
+        "program_name": "Diamond Elite",
+        "created_at": "2023-07-31T21:07:53.365Z",
+        "updated_at": "2023-08-01T11:12:02.029Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "98de44ea-20da-432d-bf12-7b175340d405",
+        "program_name": "Silver Advantage",
+        "created_at": "2023-07-31T23:52:35.057Z",
+        "updated_at": "2023-08-01T03:24:10.616Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "ddb95ac8-776f-4b30-8d67-7833a09de624",
+        "program_name": "Bronze Membership",
+        "created_at": "2023-08-01T15:45:10.560Z",
+        "updated_at": "2023-07-31T21:12:05.755Z",
+        "business_owner_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "dd2c2d79-b5c1-4ddc-9ea8-aaf81d770606",
+        "booking_time": "2023-07-31T16:55:33.598Z",
+        "created_at": "2023-08-01T16:16:43.378Z",
+        "updated_at": "2023-08-01T02:25:24.754Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "404e78e1-eedf-4617-bb54-eb64cb8b2ec5",
+        "booking_time": "2023-08-01T05:22:25.377Z",
+        "created_at": "2023-07-31T18:58:39.758Z",
+        "updated_at": "2023-08-01T14:43:19.395Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "7400bcb3-d345-4fb0-b046-fd977fc1ad7a",
+        "booking_time": "2023-08-01T11:15:33.869Z",
+        "created_at": "2023-08-01T11:30:36.191Z",
+        "updated_at": "2023-08-01T10:00:24.653Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "dc6c0318-0dc4-41f5-bab2-a8ef7e261d5a",
+        "booking_time": "2023-08-01T15:11:43.563Z",
+        "created_at": "2023-08-01T16:09:54.421Z",
+        "updated_at": "2023-08-01T09:49:00.668Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "fad8b6d0-2c99-44f0-8e32-a00a7ba8c3ab",
+        "booking_time": "2023-08-01T15:55:03.983Z",
+        "created_at": "2023-07-31T20:07:51.161Z",
+        "updated_at": "2023-07-31T16:41:07.670Z",
+        "business_owner_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "ride": [
+      {
+        "id": "06f99d22-0df0-4d27-81fc-c27d5721d350",
+        "pickup_location": "Central Park",
+        "dropoff_location": "Grand Central Terminal",
+        "ride_option": "Sedan",
+        "created_at": "2023-08-01T02:12:00.931Z",
+        "updated_at": "2023-08-01T04:23:58.092Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "f4a518f9-7432-41f5-b92a-485c818cd2be",
+        "pickup_location": "Times Square",
+        "dropoff_location": "Rockefeller Center",
+        "ride_option": "SUV",
+        "created_at": "2023-07-31T18:11:11.647Z",
+        "updated_at": "2023-07-31T22:01:34.628Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "587a813d-3826-4c3d-8e6e-0f4d13d64a82",
+        "pickup_location": "Brooklyn Bridge",
+        "dropoff_location": "One World Trade Center",
+        "ride_option": "Luxury",
+        "created_at": "2023-08-01T11:36:03.613Z",
+        "updated_at": "2023-08-01T08:29:12.887Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "724cd644-b05d-4d5a-a460-e4d946914c6b",
+        "pickup_location": "Empire State Building",
+        "dropoff_location": "The High Line",
+        "ride_option": "Van",
+        "created_at": "2023-08-01T05:08:03.223Z",
+        "updated_at": "2023-08-01T13:03:48.535Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "ce74e4da-3a27-4107-ae81-e60920b27b37",
+        "pickup_location": "Statue of Liberty",
+        "dropoff_location": "The Metropolitan Museum of Art",
+        "ride_option": "Motorcycle",
+        "created_at": "2023-08-01T07:10:47.924Z",
+        "updated_at": "2023-07-31T23:40:23.851Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      }
+    ],
+    "rating": [
+      {
+        "id": "6db1b753-d93d-4c88-83db-f9556d0da2ac",
+        "rating": 87459,
+        "created_at": "2023-08-01T07:51:50.128Z",
+        "updated_at": "2023-08-01T02:04:04.191Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "28d2ed95-ad9b-48ca-97a4-8bd804755fe7",
+        "rating": 40488,
+        "created_at": "2023-08-01T16:21:59.058Z",
+        "updated_at": "2023-07-31T21:38:38.857Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "55d1d1ab-8576-4868-b14e-8b0df4c6849b",
+        "rating": 6060,
+        "created_at": "2023-08-01T13:52:27.723Z",
+        "updated_at": "2023-07-31T23:12:55.519Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "5d5b02c8-0f96-4e81-8cc6-fc3e0291fdc3",
+        "rating": 47967,
+        "created_at": "2023-07-31T23:40:36.037Z",
+        "updated_at": "2023-08-01T02:49:07.110Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "b6e8e2d8-6dbb-4c27-99cd-a1a512d3ee3a",
+        "rating": 58800,
+        "created_at": "2023-08-01T15:34:09.891Z",
+        "updated_at": "2023-08-01T03:26:05.026Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      }
+    ],
+    "loyalty_program": [
+      {
+        "id": "0512cace-6624-48e8-a54c-b5d763a28aad",
+        "program_name": "Gold Rewards",
+        "created_at": "2023-07-31T16:56:34.210Z",
+        "updated_at": "2023-08-01T08:53:08.567Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "ff63163f-073b-4db6-9242-d29b9240a9b7",
+        "program_name": "Platinum Club",
+        "created_at": "2023-07-31T18:13:59.216Z",
+        "updated_at": "2023-08-01T14:15:47.740Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "b5f5ef2e-abdc-4c71-b64b-22d80b129397",
+        "program_name": "Diamond Elite",
+        "created_at": "2023-08-01T10:01:02.903Z",
+        "updated_at": "2023-07-31T21:24:41.009Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "aedf1e1d-7daa-487f-949e-451fe5b2bf3c",
+        "program_name": "Silver Advantage",
+        "created_at": "2023-07-31T19:14:41.783Z",
+        "updated_at": "2023-07-31T21:43:30.021Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "c78083a9-d585-44d0-9717-48f2b460b87e",
+        "program_name": "Bronze Membership",
+        "created_at": "2023-08-01T08:24:48.175Z",
+        "updated_at": "2023-07-31T17:22:59.118Z",
+        "business_owner_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "f027c536-e5ad-44ea-ae06-93d40f723bab",
+        "booking_time": "2023-08-01T15:48:56.129Z",
+        "created_at": "2023-07-31T17:19:44.512Z",
+        "updated_at": "2023-07-31T17:25:24.750Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "a3578cb1-6515-46c5-978c-1364e27bcd89",
+        "booking_time": "2023-07-31T21:57:17.766Z",
+        "created_at": "2023-07-31T18:36:35.929Z",
+        "updated_at": "2023-07-31T19:04:38.074Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "90c31fc9-9264-4f38-b519-02a62ce1399d",
+        "booking_time": "2023-08-01T11:41:18.143Z",
+        "created_at": "2023-07-31T18:46:11.831Z",
+        "updated_at": "2023-08-01T07:24:58.671Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "f029cee7-ea34-4285-88a6-4adb91ab9678",
+        "booking_time": "2023-07-31T20:53:42.994Z",
+        "created_at": "2023-07-31T22:32:32.449Z",
+        "updated_at": "2023-08-01T03:03:54.187Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "94de0920-18f4-4051-b264-ca6590f27ce3",
+        "booking_time": "2023-08-01T03:38:08.147Z",
+        "created_at": "2023-07-31T21:42:30.908Z",
+        "updated_at": "2023-07-31T21:58:53.759Z",
+        "business_owner_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "ride": [
+      {
+        "id": "2829c572-bd15-4ee2-85c8-29e3486557a0",
+        "pickup_location": "Central Park",
+        "dropoff_location": "Grand Central Terminal",
+        "ride_option": "Sedan",
+        "created_at": "2023-08-01T06:12:55.233Z",
+        "updated_at": "2023-08-01T12:37:12.704Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "a1599801-0ac1-4e30-a537-436e11c07eea",
+        "pickup_location": "Times Square",
+        "dropoff_location": "Rockefeller Center",
+        "ride_option": "SUV",
+        "created_at": "2023-07-31T20:39:31.401Z",
+        "updated_at": "2023-08-01T00:43:49.518Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "27dc58e0-b414-4e0a-9b86-07cb538487a1",
+        "pickup_location": "Brooklyn Bridge",
+        "dropoff_location": "One World Trade Center",
+        "ride_option": "Luxury",
+        "created_at": "2023-08-01T15:58:27.760Z",
+        "updated_at": "2023-07-31T20:48:39.977Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "99ee0fe8-c231-4e5f-9596-c2a9748a7ada",
+        "pickup_location": "Empire State Building",
+        "dropoff_location": "The High Line",
+        "ride_option": "Van",
+        "created_at": "2023-08-01T07:35:05.644Z",
+        "updated_at": "2023-08-01T02:08:27.249Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "3d2aad5a-3d20-4748-acab-041402b81121",
+        "pickup_location": "Statue of Liberty",
+        "dropoff_location": "The Metropolitan Museum of Art",
+        "ride_option": "Motorcycle",
+        "created_at": "2023-08-01T00:30:02.090Z",
+        "updated_at": "2023-08-01T14:18:36.571Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      }
+    ],
+    "rating": [
+      {
+        "id": "a32849ae-9e6f-46cf-bd01-7348835a6176",
+        "rating": 20640,
+        "created_at": "2023-08-01T07:35:59.530Z",
+        "updated_at": "2023-08-01T12:58:54.973Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "d2eb1cca-2289-4e5a-8e08-c18be8319f1d",
+        "rating": 33591,
+        "created_at": "2023-08-01T13:06:33.807Z",
+        "updated_at": "2023-08-01T13:01:19.066Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "5717612b-f8cf-4faf-b4b2-16e411e94e54",
+        "rating": 75186,
+        "created_at": "2023-08-01T01:36:40.110Z",
+        "updated_at": "2023-08-01T09:07:39.702Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "9e1d07ce-8ece-4cfe-b27a-a1554dd936ec",
+        "rating": 2963,
+        "created_at": "2023-07-31T19:06:08.487Z",
+        "updated_at": "2023-08-01T00:16:50.481Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "284069da-5d45-423a-a610-1e4ccccfbdd7",
+        "rating": 53198,
+        "created_at": "2023-08-01T12:40:55.337Z",
+        "updated_at": "2023-07-31T20:34:54.990Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      }
+    ],
+    "loyalty_program": [
+      {
+        "id": "50c48f1e-5349-436a-8163-e38bae456fdc",
+        "program_name": "Gold Rewards",
+        "created_at": "2023-08-01T14:50:47.851Z",
+        "updated_at": "2023-07-31T18:37:05.077Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "486e6fbb-7e73-4343-a745-cb0532706bce",
+        "program_name": "Platinum Club",
+        "created_at": "2023-08-01T07:25:59.597Z",
+        "updated_at": "2023-08-01T07:10:04.421Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "c64b4808-4f6f-47b8-a145-86d3bb43c383",
+        "program_name": "Diamond Elite",
+        "created_at": "2023-08-01T14:20:17.785Z",
+        "updated_at": "2023-08-01T11:43:01.850Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "134dc84a-1380-441c-bc57-276dad9e3aa2",
+        "program_name": "Silver Advantage",
+        "created_at": "2023-08-01T02:52:30.768Z",
+        "updated_at": "2023-08-01T02:03:15.007Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "f590e183-c4a5-4bcd-a521-3002b78df972",
+        "program_name": "Bronze Membership",
+        "created_at": "2023-07-31T20:22:23.726Z",
+        "updated_at": "2023-08-01T12:40:30.821Z",
+        "business_owner_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "765f4d07-02ae-4670-827b-85d328fb2597",
+        "booking_time": "2023-08-01T02:15:06.887Z",
+        "created_at": "2023-08-01T03:54:39.143Z",
+        "updated_at": "2023-07-31T21:23:32.713Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "1856ae3b-5b29-4fda-bb75-558bd8dedca3",
+        "booking_time": "2023-08-01T15:26:56.400Z",
+        "created_at": "2023-07-31T19:24:26.410Z",
+        "updated_at": "2023-08-01T05:13:56.916Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "45813b25-014b-4bf1-ad68-978383dadbb9",
+        "booking_time": "2023-08-01T14:14:37.874Z",
+        "created_at": "2023-08-01T15:39:51.058Z",
+        "updated_at": "2023-08-01T09:31:17.691Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "798442b3-a01b-4b4c-95bc-7f2e4b163a70",
+        "booking_time": "2023-08-01T05:44:33.376Z",
+        "created_at": "2023-08-01T13:05:53.649Z",
+        "updated_at": "2023-07-31T19:04:47.804Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "0ba142f8-c9d7-4741-93c6-eb29ec57c6f3",
+        "booking_time": "2023-07-31T18:44:26.805Z",
+        "created_at": "2023-08-01T14:35:07.773Z",
+        "updated_at": "2023-08-01T12:15:26.739Z",
+        "business_owner_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "ride": [
+      {
+        "id": "d531c4f8-7ec2-45ba-8749-d90d112c2149",
+        "pickup_location": "Central Park",
+        "dropoff_location": "Grand Central Terminal",
+        "ride_option": "Sedan",
+        "created_at": "2023-08-01T06:39:53.937Z",
+        "updated_at": "2023-07-31T22:44:44.981Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "d912de98-bb97-4446-99e2-d2ed9d31ef15",
+        "pickup_location": "Times Square",
+        "dropoff_location": "Rockefeller Center",
+        "ride_option": "SUV",
+        "created_at": "2023-07-31T17:54:29.251Z",
+        "updated_at": "2023-07-31T21:14:14.219Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "ebae7f7c-c171-41f2-93b4-892cc37a6f06",
+        "pickup_location": "Brooklyn Bridge",
+        "dropoff_location": "One World Trade Center",
+        "ride_option": "Luxury",
+        "created_at": "2023-08-01T00:24:11.089Z",
+        "updated_at": "2023-07-31T19:25:10.543Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "34a2310f-e7de-48a4-9336-fe6abcfcbd2d",
+        "pickup_location": "Empire State Building",
+        "dropoff_location": "The High Line",
+        "ride_option": "Van",
+        "created_at": "2023-08-01T08:20:55.192Z",
+        "updated_at": "2023-08-01T02:15:36.810Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "f19fecbc-0565-4c14-862e-4a8861faae0a",
+        "pickup_location": "Statue of Liberty",
+        "dropoff_location": "The Metropolitan Museum of Art",
+        "ride_option": "Motorcycle",
+        "created_at": "2023-08-01T08:11:17.047Z",
+        "updated_at": "2023-08-01T10:03:56.766Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      }
+    ],
+    "rating": [
+      {
+        "id": "e6cade27-9b49-4fbe-9541-6f382c62b0a8",
+        "rating": 87249,
+        "created_at": "2023-07-31T17:17:43.279Z",
+        "updated_at": "2023-07-31T17:49:17.576Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "6d96ac79-1f60-44d9-bf9b-8b694b78a0e5",
+        "rating": 54483,
+        "created_at": "2023-08-01T15:05:59.311Z",
+        "updated_at": "2023-07-31T22:03:19.437Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "ec2f267b-f244-4ad1-9dd1-8608a16bd67c",
+        "rating": 6302,
+        "created_at": "2023-07-31T19:01:14.822Z",
+        "updated_at": "2023-08-01T02:45:50.012Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "7ec03925-ff18-40d3-a385-90309fe98f5d",
+        "rating": 33056,
+        "created_at": "2023-07-31T16:42:03.709Z",
+        "updated_at": "2023-08-01T14:22:15.179Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "6e399543-fbc5-4311-9923-506264a65356",
+        "rating": 46667,
+        "created_at": "2023-08-01T01:23:48.319Z",
+        "updated_at": "2023-07-31T20:45:04.185Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      }
+    ],
+    "loyalty_program": [
+      {
+        "id": "6209fd27-db5a-49ec-a210-415dd34ac642",
+        "program_name": "Gold Rewards",
+        "created_at": "2023-08-01T10:12:21.862Z",
+        "updated_at": "2023-08-01T08:39:28.721Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "f055bff5-822f-482a-8460-4b439348ae91",
+        "program_name": "Platinum Club",
+        "created_at": "2023-08-01T11:53:34.981Z",
+        "updated_at": "2023-08-01T01:06:08.700Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "d0e0f7ec-f493-48ac-9628-8e8ba742123a",
+        "program_name": "Diamond Elite",
+        "created_at": "2023-08-01T13:56:45.088Z",
+        "updated_at": "2023-08-01T09:41:06.172Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "bc30c5fe-e886-44a6-8315-89fa73c3529f",
+        "program_name": "Silver Advantage",
+        "created_at": "2023-08-01T10:00:08.519Z",
+        "updated_at": "2023-08-01T01:29:53.781Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "0ad47c5b-8a8c-4f40-b6e6-58900ba7abdb",
+        "program_name": "Bronze Membership",
+        "created_at": "2023-08-01T01:11:18.786Z",
+        "updated_at": "2023-08-01T08:14:06.385Z",
+        "business_owner_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "2d977a4a-eaf3-418f-81cd-956d08106ce8",
+        "booking_time": "2023-08-01T14:06:50.930Z",
+        "created_at": "2023-08-01T07:51:10.740Z",
+        "updated_at": "2023-08-01T13:30:14.328Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "af25bc58-e89f-437b-8aa8-026bc5caa8ef",
+        "booking_time": "2023-07-31T18:37:13.058Z",
+        "created_at": "2023-08-01T10:49:49.643Z",
+        "updated_at": "2023-07-31T16:52:20.776Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "036a5e20-8f54-446d-a661-28fea3ca4c54",
+        "booking_time": "2023-07-31T18:36:32.457Z",
+        "created_at": "2023-08-01T13:11:02.634Z",
+        "updated_at": "2023-08-01T04:37:54.094Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "1a0b7ee8-8e9a-4053-95fa-b9013c5978e0",
+        "booking_time": "2023-08-01T02:23:36.248Z",
+        "created_at": "2023-08-01T07:53:13.372Z",
+        "updated_at": "2023-08-01T08:25:11.275Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "764f0175-65f8-4f0b-92b0-ee68bdfee6d2",
+        "booking_time": "2023-08-01T14:13:51.853Z",
+        "created_at": "2023-08-01T10:59:08.018Z",
+        "updated_at": "2023-08-01T14:36:28.594Z",
+        "business_owner_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "ride": [
+      {
+        "id": "5923c9eb-27e9-4c23-8cf6-7c3a5c4e906e",
+        "pickup_location": "Central Park",
+        "dropoff_location": "Grand Central Terminal",
+        "ride_option": "Sedan",
+        "created_at": "2023-08-01T16:11:07.593Z",
+        "updated_at": "2023-07-31T18:40:01.012Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "b8eb93d9-2868-4e98-8e99-cb17191c7f75",
+        "pickup_location": "Times Square",
+        "dropoff_location": "Rockefeller Center",
+        "ride_option": "SUV",
+        "created_at": "2023-08-01T13:09:35.568Z",
+        "updated_at": "2023-08-01T15:59:40.439Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "d88d9868-d001-4f26-919d-adc521b45fb3",
+        "pickup_location": "Brooklyn Bridge",
+        "dropoff_location": "One World Trade Center",
+        "ride_option": "Luxury",
+        "created_at": "2023-08-01T03:09:01.725Z",
+        "updated_at": "2023-08-01T06:25:55.137Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "a12d5816-ae50-43ef-98b0-d2d95b7bc609",
+        "pickup_location": "Empire State Building",
+        "dropoff_location": "The High Line",
+        "ride_option": "Van",
+        "created_at": "2023-08-01T05:52:09.158Z",
+        "updated_at": "2023-07-31T17:48:22.076Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "fc96ab38-d1f9-4bac-a7ea-667035d80560",
+        "pickup_location": "Statue of Liberty",
+        "dropoff_location": "The Metropolitan Museum of Art",
+        "ride_option": "Motorcycle",
+        "created_at": "2023-07-31T18:41:31.718Z",
+        "updated_at": "2023-07-31T20:06:36.217Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      }
+    ],
+    "rating": [
+      {
+        "id": "e0d274a4-a637-49b3-b768-4e25496adc9d",
+        "rating": 86049,
+        "created_at": "2023-07-31T16:45:32.787Z",
+        "updated_at": "2023-08-01T01:54:17.265Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "2ac2379c-65a4-4a6a-aaa3-48a101ab8d7c",
+        "rating": 20355,
+        "created_at": "2023-08-01T00:47:38.581Z",
+        "updated_at": "2023-07-31T22:05:54.468Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "d1ba9547-041c-4780-82ae-5f864ce35241",
+        "rating": 94014,
+        "created_at": "2023-08-01T01:14:59.097Z",
+        "updated_at": "2023-08-01T03:52:32.196Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "411960a1-623d-46aa-832b-a281f817c687",
+        "rating": 5348,
+        "created_at": "2023-08-01T12:06:32.685Z",
+        "updated_at": "2023-08-01T03:38:10.082Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "6e54e7a0-1772-4e05-aedc-18d9efc88809",
+        "rating": 25961,
+        "created_at": "2023-07-31T19:34:34.654Z",
+        "updated_at": "2023-08-01T14:06:02.574Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      }
+    ],
+    "loyalty_program": [
+      {
+        "id": "ffa050ee-e226-482d-930d-8e42e2aa6c17",
+        "program_name": "Gold Rewards",
+        "created_at": "2023-08-01T14:33:54.973Z",
+        "updated_at": "2023-07-31T18:55:03.609Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "e6d8dbec-7f7b-4e1b-952a-65a71df2e8b3",
+        "program_name": "Platinum Club",
+        "created_at": "2023-08-01T16:30:54.571Z",
+        "updated_at": "2023-08-01T15:29:39.215Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "85a32dfa-6398-4a9a-8597-1c56ce805f97",
+        "program_name": "Diamond Elite",
+        "created_at": "2023-08-01T04:52:27.071Z",
+        "updated_at": "2023-08-01T12:48:53.914Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "7040dea8-e6e9-46b7-9fd6-58a4b382ef7f",
+        "program_name": "Silver Advantage",
+        "created_at": "2023-07-31T20:17:04.766Z",
+        "updated_at": "2023-08-01T05:21:57.583Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "1b4571db-78a8-4ee0-8d7b-191f787f5d24",
+        "program_name": "Bronze Membership",
+        "created_at": "2023-08-01T01:24:52.444Z",
+        "updated_at": "2023-08-01T06:25:33.393Z",
+        "business_owner_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "79117473-a8f4-491f-826d-8d78469d7713",
+        "booking_time": "2023-08-01T11:47:09.040Z",
+        "created_at": "2023-08-01T03:22:37.237Z",
+        "updated_at": "2023-08-01T11:31:17.968Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "f7947d70-92af-423d-8271-bb2ce4756531",
+        "booking_time": "2023-08-01T02:36:54.861Z",
+        "created_at": "2023-07-31T19:50:32.713Z",
+        "updated_at": "2023-08-01T13:22:24.013Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "d262b619-8688-4803-8cdf-7bb5d18f4207",
+        "booking_time": "2023-08-01T06:18:58.745Z",
+        "created_at": "2023-07-31T22:55:45.232Z",
+        "updated_at": "2023-08-01T12:51:46.730Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "d312f7cd-94af-4445-ac44-9069745360b1",
+        "booking_time": "2023-08-01T05:07:24.497Z",
+        "created_at": "2023-07-31T20:38:02.592Z",
+        "updated_at": "2023-07-31T23:46:18.945Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "4793f3bc-8434-4073-a3fa-f74e8a421ba8",
+        "booking_time": "2023-08-01T00:08:09.699Z",
+        "created_at": "2023-08-01T00:58:22.891Z",
+        "updated_at": "2023-07-31T19:02:38.652Z",
+        "business_owner_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "ride": [
+      {
+        "id": "c010b7db-942a-4c50-8fe2-e9382a1eeb64",
+        "pickup_location": "Central Park",
+        "dropoff_location": "Grand Central Terminal",
+        "ride_option": "Standard",
+        "created_at": "2023-08-01T15:35:44.793Z",
+        "updated_at": "2023-08-01T00:15:29.621Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "57275fb4-32cd-4b15-b0ca-63f9d21eb216",
+        "pickup_location": "Times Square",
+        "dropoff_location": "Rockefeller Center",
+        "ride_option": "Luxury",
+        "created_at": "2023-07-31T22:13:26.391Z",
+        "updated_at": "2023-08-01T11:23:52.291Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "3cf3540d-acae-43c2-8313-e4b93fd59dc9",
+        "pickup_location": "Brooklyn Bridge",
+        "dropoff_location": "One World Trade Center",
+        "ride_option": "SUV",
+        "created_at": "2023-08-01T11:27:08.196Z",
+        "updated_at": "2023-07-31T20:57:40.198Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "960547e2-d10c-482b-aba8-54d50ee1b4f0",
+        "pickup_location": "Empire State Building",
+        "dropoff_location": "The High Line",
+        "ride_option": "Shared",
+        "created_at": "2023-07-31T18:15:55.555Z",
+        "updated_at": "2023-07-31T18:11:48.998Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "401ef292-d025-4357-a04f-293421b36b0a",
+        "pickup_location": "Statue of Liberty",
+        "dropoff_location": "The Metropolitan Museum of Art",
+        "ride_option": "Electric",
+        "created_at": "2023-08-01T16:06:15.880Z",
+        "updated_at": "2023-08-01T15:04:01.557Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      }
+    ],
+    "rating": [
+      {
+        "id": "ea577d6d-7348-4278-9b6b-98caaa970a20",
+        "rating": 99338,
+        "created_at": "2023-08-01T12:03:43.404Z",
+        "updated_at": "2023-08-01T06:57:56.959Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "45ee821e-772b-4c5a-ab53-501300abc39d",
+        "rating": 94013,
+        "created_at": "2023-08-01T06:36:04.742Z",
+        "updated_at": "2023-08-01T10:11:40.178Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "a8d32e7a-d85b-4bf3-8451-d206bf6903e7",
+        "rating": 87137,
+        "created_at": "2023-08-01T13:57:27.942Z",
+        "updated_at": "2023-08-01T03:50:00.355Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "801395b5-e784-4c1a-ba46-f8e6eef2956d",
+        "rating": 88785,
+        "created_at": "2023-07-31T17:45:31.146Z",
+        "updated_at": "2023-08-01T13:38:38.568Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "e5bf0e33-1140-4611-9a51-d0c7eb0ed6e2",
+        "rating": 77540,
+        "created_at": "2023-07-31T16:41:10.648Z",
+        "updated_at": "2023-08-01T04:08:28.437Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      }
+    ],
+    "loyalty_program": [
+      {
+        "id": "657693b0-8cde-43d0-b00b-819b26cf580a",
+        "program_name": "Gold Rewards",
+        "created_at": "2023-08-01T04:52:40.778Z",
+        "updated_at": "2023-08-01T07:35:51.072Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "9e56d014-c089-4f53-885c-ce22642f96bd",
+        "program_name": "Platinum Club",
+        "created_at": "2023-08-01T05:42:33.296Z",
+        "updated_at": "2023-08-01T05:46:59.230Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "95d424aa-9ae4-4df6-a75d-5d06357b3205",
+        "program_name": "Diamond Elite",
+        "created_at": "2023-08-01T09:56:24.174Z",
+        "updated_at": "2023-08-01T10:01:31.219Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "2124f724-e2f0-4156-b535-d92381258827",
+        "program_name": "Silver Advantage",
+        "created_at": "2023-08-01T08:22:57.600Z",
+        "updated_at": "2023-07-31T19:46:30.646Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "65592b99-cf69-41a8-8b63-211f28a696b9",
+        "program_name": "Bronze Membership",
+        "created_at": "2023-08-01T03:33:55.450Z",
+        "updated_at": "2023-07-31T17:22:42.123Z",
+        "business_owner_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "528754fd-c74e-4a6e-8301-41f641056e11",
+        "booking_time": "2023-07-31T23:49:33.777Z",
+        "created_at": "2023-08-01T03:03:20.608Z",
+        "updated_at": "2023-08-01T05:56:47.791Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "66d83426-9cda-40a5-a379-a623dd2d06e8",
+        "booking_time": "2023-08-01T00:34:23.004Z",
+        "created_at": "2023-08-01T03:03:14.513Z",
+        "updated_at": "2023-08-01T02:47:26.466Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "54fa058f-d4d6-4e6e-bc5d-6ccde5534f6e",
+        "booking_time": "2023-08-01T06:14:56.244Z",
+        "created_at": "2023-08-01T14:38:30.688Z",
+        "updated_at": "2023-08-01T06:36:41.379Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "ac5857c3-a634-4245-a30e-6c92614f9e8e",
+        "booking_time": "2023-08-01T10:47:49.600Z",
+        "created_at": "2023-07-31T21:04:31.247Z",
+        "updated_at": "2023-08-01T03:36:37.911Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "e69883a8-1317-4a7a-9243-e4a9838f82e9",
+        "booking_time": "2023-07-31T21:09:06.287Z",
+        "created_at": "2023-07-31T23:37:03.768Z",
+        "updated_at": "2023-08-01T00:14:46.632Z",
+        "business_owner_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "ride": [
+      {
+        "id": "ae183b1a-7561-430d-a4c0-7d21559e18a8",
+        "pickup_location": "Central Park",
+        "dropoff_location": "Grand Central Terminal",
+        "ride_option": "Sedan",
+        "created_at": "2023-07-31T18:08:04.115Z",
+        "updated_at": "2023-07-31T22:33:48.580Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "ff188130-c785-433d-8258-28f4e90215ee",
+        "pickup_location": "Times Square",
+        "dropoff_location": "Rockefeller Center",
+        "ride_option": "SUV",
+        "created_at": "2023-07-31T19:22:17.979Z",
+        "updated_at": "2023-08-01T13:04:20.056Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "0087062c-879b-424a-af87-704d13576841",
+        "pickup_location": "Brooklyn Bridge",
+        "dropoff_location": "One World Trade Center",
+        "ride_option": "Luxury",
+        "created_at": "2023-08-01T00:51:00.011Z",
+        "updated_at": "2023-07-31T21:00:23.925Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "54f8da70-7072-4e84-8d3c-5f943b731211",
+        "pickup_location": "Empire State Building",
+        "dropoff_location": "The High Line",
+        "ride_option": "Van",
+        "created_at": "2023-08-01T01:05:49.755Z",
+        "updated_at": "2023-08-01T16:33:01.786Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "06833b20-e803-4eb4-919c-4a15bb939ef7",
+        "pickup_location": "Statue of Liberty",
+        "dropoff_location": "The Metropolitan Museum of Art",
+        "ride_option": "Motorcycle",
+        "created_at": "2023-08-01T14:48:05.555Z",
+        "updated_at": "2023-08-01T11:55:40.767Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      }
+    ],
+    "rating": [
+      {
+        "id": "668bc10d-1407-48b3-a1d6-af5eee86d959",
+        "rating": 79054,
+        "created_at": "2023-08-01T08:46:04.274Z",
+        "updated_at": "2023-08-01T12:30:29.741Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "5150a743-0c97-4a0d-a369-b2954371b254",
+        "rating": 60155,
+        "created_at": "2023-07-31T23:34:34.710Z",
+        "updated_at": "2023-08-01T12:03:16.786Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "3450e675-45af-49f7-98eb-8521ead09d98",
+        "rating": 59227,
+        "created_at": "2023-07-31T16:42:01.720Z",
+        "updated_at": "2023-07-31T22:06:05.293Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "e29bd18b-1515-4448-a45c-c7a3cd5232fa",
+        "rating": 83376,
+        "created_at": "2023-08-01T15:38:07.830Z",
+        "updated_at": "2023-08-01T11:42:26.278Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "07067549-5a0f-443f-8396-7fad2a9767c7",
+        "rating": 13246,
+        "created_at": "2023-08-01T02:10:48.975Z",
+        "updated_at": "2023-08-01T07:17:23.931Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      }
+    ],
+    "loyalty_program": [
+      {
+        "id": "7e0b276c-673d-432b-ae7b-945c9448a9d5",
+        "program_name": "Gold Rewards",
+        "created_at": "2023-08-01T15:33:44.078Z",
+        "updated_at": "2023-08-01T05:34:08.562Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "5b288129-3055-45af-9200-a12f6fc9f115",
+        "program_name": "Platinum Club",
+        "created_at": "2023-08-01T09:21:28.452Z",
+        "updated_at": "2023-07-31T18:25:51.169Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "5bcf65c6-3b9e-4d7e-b6ab-40eb850fd2ed",
+        "program_name": "Diamond Elite",
+        "created_at": "2023-08-01T06:44:39.445Z",
+        "updated_at": "2023-08-01T15:32:12.818Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "f3a9f488-e9e1-4af1-9425-089c3b4ddf43",
+        "program_name": "Silver Advantage",
+        "created_at": "2023-08-01T05:34:34.236Z",
+        "updated_at": "2023-08-01T03:04:03.353Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "108d43f9-105f-40c7-a0b7-2b8512aa0f31",
+        "program_name": "Bronze Membership",
+        "created_at": "2023-07-31T20:48:39.098Z",
+        "updated_at": "2023-08-01T14:03:50.506Z",
+        "business_owner_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "16dce956-fb23-42f7-9f39-bef12389f680",
+        "booking_time": "2023-07-31T18:05:18.755Z",
+        "created_at": "2023-07-31T21:27:05.481Z",
+        "updated_at": "2023-08-01T16:24:27.288Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "36de3020-60bf-43a5-a49f-efcc1f6644ba",
+        "booking_time": "2023-08-01T02:17:44.795Z",
+        "created_at": "2023-07-31T17:35:36.700Z",
+        "updated_at": "2023-07-31T20:52:38.393Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "2fbb400e-9ce6-4da7-b205-2f9d50194484",
+        "booking_time": "2023-08-01T03:31:32.663Z",
+        "created_at": "2023-08-01T04:25:46.616Z",
+        "updated_at": "2023-08-01T00:47:04.925Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "819d0aaf-5f0b-489e-acee-b53de308dc21",
+        "booking_time": "2023-08-01T15:09:21.650Z",
+        "created_at": "2023-08-01T01:49:10.753Z",
+        "updated_at": "2023-07-31T17:33:10.896Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "c7ee91f1-6bee-4ccd-ae0c-2b8d7c3c0d64",
+        "booking_time": "2023-08-01T04:15:09.385Z",
+        "created_at": "2023-08-01T07:03:34.988Z",
+        "updated_at": "2023-07-31T20:50:44.794Z",
+        "business_owner_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "ride": [
+      {
+        "id": "02850d61-bd04-4ea1-9183-c69669afa410",
+        "pickup_location": "Central Park",
+        "dropoff_location": "Grand Central Terminal",
+        "ride_option": "Sedan",
+        "created_at": "2023-08-01T05:00:26.880Z",
+        "updated_at": "2023-08-01T11:06:02.140Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "c37b61fb-24fa-4c51-8b1e-b44c1a92ff25",
+        "pickup_location": "Times Square",
+        "dropoff_location": "Rockefeller Center",
+        "ride_option": "SUV",
+        "created_at": "2023-08-01T05:12:24.979Z",
+        "updated_at": "2023-08-01T05:46:34.634Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "31c51943-7423-4809-9a1a-568fd3ead197",
+        "pickup_location": "Brooklyn Bridge",
+        "dropoff_location": "One World Trade Center",
+        "ride_option": "Luxury",
+        "created_at": "2023-07-31T16:51:27.806Z",
+        "updated_at": "2023-08-01T06:49:01.746Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "f82b8e87-29a1-4767-87ed-77a39bd3a3c6",
+        "pickup_location": "Empire State Building",
+        "dropoff_location": "The High Line",
+        "ride_option": "Van",
+        "created_at": "2023-08-01T11:55:57.499Z",
+        "updated_at": "2023-07-31T18:51:10.699Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "10ba3ff6-029d-4d88-8b12-a0f04576a0a6",
+        "pickup_location": "Statue of Liberty",
+        "dropoff_location": "The Metropolitan Museum of Art",
+        "ride_option": "Motorcycle",
+        "created_at": "2023-08-01T03:56:05.236Z",
+        "updated_at": "2023-07-31T22:06:13.171Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      }
+    ],
+    "rating": [
+      {
+        "id": "10e19fa8-3ca0-4e62-9dda-091c09a937e9",
+        "rating": 50858,
+        "created_at": "2023-08-01T00:06:12.665Z",
+        "updated_at": "2023-08-01T11:24:59.341Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "96809279-882c-4d3c-8525-32b0e800ddd1",
+        "rating": 66236,
+        "created_at": "2023-08-01T08:50:47.679Z",
+        "updated_at": "2023-07-31T18:57:23.684Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "78eadf75-b6fb-4f3d-b649-de704b244051",
+        "rating": 98717,
+        "created_at": "2023-07-31T17:04:30.084Z",
+        "updated_at": "2023-07-31T17:57:41.530Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "0fcd5061-bfc4-44d9-874c-0a6ea4e6dd29",
+        "rating": 33633,
+        "created_at": "2023-08-01T05:03:46.316Z",
+        "updated_at": "2023-07-31T23:19:01.884Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "12bf548b-4031-4623-a968-9745b1696ea9",
+        "rating": 96499,
+        "created_at": "2023-08-01T11:41:33.594Z",
+        "updated_at": "2023-08-01T01:23:06.619Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      }
+    ],
+    "loyalty_program": [
+      {
+        "id": "0c2fcab9-ca88-4749-b841-4e0a3521325c",
+        "program_name": "Gold Rewards",
+        "created_at": "2023-07-31T19:00:44.215Z",
+        "updated_at": "2023-08-01T02:58:34.347Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "ef9be3b1-0f02-4c53-a4f8-6a0d92a6cc35",
+        "program_name": "Platinum Club",
+        "created_at": "2023-08-01T09:56:15.170Z",
+        "updated_at": "2023-08-01T14:32:43.611Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "6804b0e0-422a-4094-a093-75207836429a",
+        "program_name": "Diamond Elite",
+        "created_at": "2023-07-31T22:09:55.664Z",
+        "updated_at": "2023-08-01T14:28:50.090Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "296f43ff-4be0-4a3e-a6cd-8da82ea3e5dc",
+        "program_name": "Silver Advantage",
+        "created_at": "2023-08-01T15:36:25.805Z",
+        "updated_at": "2023-08-01T04:19:15.101Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "874c8005-eabf-40f8-a1ca-45db9355e03f",
+        "program_name": "Bronze Membership",
+        "created_at": "2023-08-01T07:24:52.797Z",
+        "updated_at": "2023-08-01T04:24:29.943Z",
+        "business_owner_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "519d18ac-a44d-40f0-acaf-a3c491efa48e",
+        "booking_time": "2023-08-01T02:16:13.324Z",
+        "created_at": "2023-08-01T12:17:02.340Z",
+        "updated_at": "2023-08-01T03:52:55.018Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "9965698f-a29f-4793-a1d3-b534a9bc3510",
+        "booking_time": "2023-08-01T00:01:16.234Z",
+        "created_at": "2023-08-01T11:55:53.928Z",
+        "updated_at": "2023-08-01T12:48:19.284Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "6a386edf-bfc0-4c69-b12c-ac829afcd3f6",
+        "booking_time": "2023-08-01T00:39:48.155Z",
+        "created_at": "2023-08-01T03:56:02.154Z",
+        "updated_at": "2023-08-01T07:19:11.222Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "fe1c073d-8b25-4bb6-80a8-db206355bfa6",
+        "booking_time": "2023-08-01T09:24:33.915Z",
+        "created_at": "2023-08-01T16:23:06.457Z",
+        "updated_at": "2023-08-01T11:24:02.597Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "ad6313b1-a073-4f2d-a17c-0016db1852dd",
+        "booking_time": "2023-08-01T02:22:38.567Z",
+        "created_at": "2023-08-01T12:51:52.499Z",
+        "updated_at": "2023-08-01T11:30:04.164Z",
+        "business_owner_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "ride": [
+      {
+        "id": "ed1cbc6d-4317-4507-9b29-77b986aead26",
+        "pickup_location": "Central Park",
+        "dropoff_location": "Grand Central Terminal",
+        "ride_option": "Sedan",
+        "created_at": "2023-08-01T08:55:01.144Z",
+        "updated_at": "2023-08-01T11:42:37.589Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "29f30e6a-f1b5-48c8-a0e4-05e0a23fa513",
+        "pickup_location": "Times Square",
+        "dropoff_location": "Rockefeller Center",
+        "ride_option": "SUV",
+        "created_at": "2023-08-01T15:23:29.977Z",
+        "updated_at": "2023-08-01T01:22:34.521Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "0addaef0-3411-4af5-a871-4c405edd5f7c",
+        "pickup_location": "Brooklyn Bridge",
+        "dropoff_location": "One World Trade Center",
+        "ride_option": "Luxury",
+        "created_at": "2023-07-31T19:56:25.783Z",
+        "updated_at": "2023-08-01T12:04:58.852Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "c189d0e3-de89-4184-bfa3-96402f74859c",
+        "pickup_location": "Empire State Building",
+        "dropoff_location": "The High Line",
+        "ride_option": "Van",
+        "created_at": "2023-07-31T19:23:38.926Z",
+        "updated_at": "2023-08-01T08:10:39.650Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "2b888840-5409-4eb2-b883-da7b118fd7e8",
+        "pickup_location": "Statue of Liberty",
+        "dropoff_location": "The Metropolitan Museum of Art",
+        "ride_option": "Motorcycle",
+        "created_at": "2023-08-01T07:15:54.015Z",
+        "updated_at": "2023-08-01T10:07:36.266Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      }
+    ],
+    "rating": [
+      {
+        "id": "b8918fd6-c4ed-4ebe-9b05-129cfeaf4ce9",
+        "rating": 508,
+        "created_at": "2023-07-31T23:20:30.420Z",
+        "updated_at": "2023-08-01T05:33:54.213Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "288d2477-be21-403f-aec8-67d1f9e6e043",
+        "rating": 50082,
+        "created_at": "2023-08-01T10:23:36.793Z",
+        "updated_at": "2023-07-31T20:43:39.304Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "4ddda488-c964-4d26-9eed-ed400328b2a2",
+        "rating": 33811,
+        "created_at": "2023-08-01T04:53:17.982Z",
+        "updated_at": "2023-07-31T19:32:01.031Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "665201a1-330f-403f-b679-0972a3cae65a",
+        "rating": 68318,
+        "created_at": "2023-08-01T03:20:56.746Z",
+        "updated_at": "2023-08-01T12:16:04.588Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      },
+      {
+        "id": "7b578ca3-8779-4051-a223-a197903f71e1",
+        "rating": 60951,
+        "created_at": "2023-08-01T06:44:10.569Z",
+        "updated_at": "2023-08-01T09:07:46.647Z",
+        "driver_id": "user_entity_pk",
+        "rider_id": "user_entity_pk"
+      }
+    ],
+    "loyalty_program": [
+      {
+        "id": "efd8a0c2-22a0-4d80-a247-6b5c4612bdaf",
+        "program_name": "Gold Rewards",
+        "created_at": "2023-08-01T06:22:30.574Z",
+        "updated_at": "2023-08-01T13:41:04.910Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "a217b674-f39c-4cac-8bca-e3245f274f2a",
+        "program_name": "Platinum Club",
+        "created_at": "2023-08-01T06:57:10.871Z",
+        "updated_at": "2023-08-01T00:39:14.339Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "8b950cf7-1317-45f8-b00d-f2511c5a90f5",
+        "program_name": "Diamond Elite",
+        "created_at": "2023-08-01T14:22:21.014Z",
+        "updated_at": "2023-08-01T07:54:42.029Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "1cabb62e-04d3-4acc-afa9-a2ea75bca7ac",
+        "program_name": "Silver Advantage",
+        "created_at": "2023-08-01T06:06:19.499Z",
+        "updated_at": "2023-08-01T10:57:55.181Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "e575bed5-793d-4591-8f75-dfd5d622d208",
+        "program_name": "Bronze Membership",
+        "created_at": "2023-08-01T14:39:47.909Z",
+        "updated_at": "2023-08-01T05:34:39.927Z",
+        "business_owner_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "d47deed3-0e09-42b7-81b5-a4c6a3d27ee4",
+        "booking_time": "2023-07-31T23:32:57.450Z",
+        "created_at": "2023-08-01T16:35:41.261Z",
+        "updated_at": "2023-08-01T00:58:20.293Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "89649e15-b20f-4272-959e-c1594405ae90",
+        "booking_time": "2023-07-31T20:46:52.365Z",
+        "created_at": "2023-08-01T07:05:46.448Z",
+        "updated_at": "2023-08-01T10:46:19.899Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "0de82a64-1cbf-4ab7-9816-4e250cc87e3d",
+        "booking_time": "2023-08-01T08:25:09.830Z",
+        "created_at": "2023-08-01T15:12:27.191Z",
+        "updated_at": "2023-07-31T17:21:41.440Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "e81a409f-1fb2-4fe3-a14c-e66673e4f4d8",
+        "booking_time": "2023-07-31T19:31:57.821Z",
+        "created_at": "2023-07-31T23:31:35.369Z",
+        "updated_at": "2023-07-31T23:11:31.620Z",
+        "business_owner_id": "user_entity_pk"
+      },
+      {
+        "id": "b677e62c-1ea1-46fe-b051-4f9b4f02eee9",
+        "booking_time": "2023-08-01T00:09:04.435Z",
+        "created_at": "2023-08-01T05:33:49.630Z",
+        "updated_at": "2023-08-01T02:27:06.830Z",
+        "business_owner_id": "user_entity_pk"
+      }
+    ]
+  }
+]
